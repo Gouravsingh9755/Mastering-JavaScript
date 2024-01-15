@@ -23,6 +23,11 @@
 // It is generally recommended to use strict equality (===) because it avoids unexpected results due to type coercion. When you use ===, you explicitly check for both value and type equality, which can lead to more predictable and safer code.
 
 
+//  *****coercion defination and meaning ****
+
+// Coercion in programming is like automatic conversion. It happens when the computer changes one type of data into another without you specifically telling it to do so. This can occur when you use different types of data together in an operation, and the computer tries to make them work together. There are two types of coercion: implicit (automatic) and explicit (manual). Implicit coercion happens automatically, while explicit coercion is when you intentionally convert one type to another using functions or operators.
+
+
 //example of loose equality [ == ] 👇👇
 
 // console.log("2" > 1);
