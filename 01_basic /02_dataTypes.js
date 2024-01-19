@@ -15,15 +15,16 @@ let isLoggedIn = false
 let state;
 
 
-// Premitive DATA-TYPES 8 [ B S-B U N S O N ]
+// Premitive DATA-TYPES 7️⃣ [ B S - S N B U N ]  🔍🔍🔍
 
-// number => 2 to power 53 (Maximum Storage capacity)
-// bigint => For greater numbers or calulation 
-// string => ""
-// boolean => true/false
-// null => standalone value
-// undefined => variable created for value not assigned
-// symbol => to provide unique identity
+//1️⃣ bigint => For greater numbers or calulation 
+//2️⃣ symbol => to provide unique identity
+
+//3️⃣ number => 2 to power 53 (Maximum Storage capacity)
+//4️⃣ string => ""
+//5️⃣ boolean => true/false
+//6️⃣ undefined => variable created for value not assigned
+//7️⃣ null => standalone value
 
 
 // object

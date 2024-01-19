@@ -1,7 +1,7 @@
 // Basically there are two types of memories in javaScript.
 
 // 1️⃣ Stack memory
-// (All primitive data types => example [ B S - BUNSON ] stored in stack memory)
+// (All primitive data types => example [ B S - S N B U N ] stored in stack memory)
 
 // 2️⃣ Heap memory 
 //(All reference or non-premitive data types => example [ A F O ] stored in heap memory)
