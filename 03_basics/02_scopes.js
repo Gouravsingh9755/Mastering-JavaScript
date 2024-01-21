@@ -115,16 +115,25 @@ if (true) {
 // -----------------------------------------------------------------------------------------
 
 
-//                         🔴🔴🔴 one important point 🔴🔴🔴
+//                         🔴🔴🔴 Some important point 🔴🔴🔴
 
 
-// Global Scope = Acts different for [windows from console.log] or for [node from terminal]  
+//1️⃣Global Scope = Acts different for [windows from console.log] or for [node from terminal]  
+
+//2️⃣ we "can"access the value of "globle scope" inside any "function" or "if-else" condition 
+//   but "cannot" access the value of "let" and "const" from any insider children "function"
+//   or "if-else" condition. 
+
+//3️⃣ "Lexical Scope" or "(Closure)" or "Nested Scope" = all are same 
+//Simply It means "Multiple Functions" inside "function" or 
+// multiple "else-if" inside "if else" conditions 🔍🔍🔍  
+
+// 4️⃣
 
 
 
-
-
-
+// for example if we try to access the the value of children function inside a function.
+// it won't allow to its parent function to access its value outside its scopes. 👇👇👇
 
 
 function one(){
@@ -142,6 +151,11 @@ function one(){
 
 // one()
 
+
+// same thing happens with the if - else conditions 🔍🔍🔍
+// for example if we try to access the the value of children "if" inside a parent "if".
+// it won't allow to its parent "if" to access its value outside its scopes. 👇👇👇
+
 if (true) {
     const username = "hitesh"
     if (username === "hitesh") {
@@ -154,18 +168,3 @@ if (true) {
 // console.log(username);
 
 
-// ++++++++++++++++++ interesting ++++++++++++++++++
-
-
-// console.log(addone(5))
-
-function addone(num){
-    return num + 1
-}
-
-
-
-// addTwo(5)
-const addTwo = function(num){
-    return num + 2
-}
