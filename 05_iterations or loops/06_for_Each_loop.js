@@ -119,8 +119,25 @@ myCoding.forEach( (item) => {
 
 // console.log(values);
 
+
+
+
 // If you want to return values in a variable like "" for_loop "" or "" other_loops "" then❓
 // for_Each loop does not allows to return values in a variable ❌❌❌
 // and also not allows to perform operations.❌❌❌
 
 //Due to this reason  " Filter " is great option to use in the place of forEach ✅✅✅
+
+
+
+//👇 method to return values in new variable through forEach  but it is lengthy..
+
+// const newNums = []
+
+// myNums.forEach( (num) => {
+//     if (num > 4) {
+//         newNums.push(num)
+//     }
+// } )
+
+// console.log(newNums);
