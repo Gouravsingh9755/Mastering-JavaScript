@@ -47,7 +47,9 @@
 // potential issues with unexpected behavior. For arrays, it's better to use the `for...of`
 //  loop or array methods like `forEach`.👈👈👈✅
 
-// Keep in mind that `for...in` iterates over all enumerable properties, including those inherited from the object's prototype chain. If you only want to iterate over an object's own properties (not inherited ones), you can use `hasOwnProperty`:👇👇👇
+// Keep in mind that `for...in` iterates over all enumerable properties, including those 
+// inherited from the object's prototype chain. If you only want to iterate over an object's
+//  own properties (not inherited ones), you can use `hasOwnProperty`:👇👇👇
 
 
 // for (let key in myObject) {
