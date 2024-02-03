@@ -81,20 +81,44 @@ for (const greet of greetings) {
         //  ❗ no duplicate value ,Map does't allow to return same keys and values. 
 
 
+// const map = new Map()
+// map.set('IN', "India")
+// map.set('Fr', "France")
+// console.log(map); 
+
+// 👉👉output = Map() { 'IN' => 'India', 'Fr' => 'France' }
+
+
+//Examples and syntex with Map 👇👇👇  
+
+for (const [key, value] of map) {
+    // console.log(key, ':-', value);
+}
+
+// 🛑🛑🛑 note = thorugh 👆 this syntex you have to  destructre Array for accessing the values
+//  of a map in key value formate.    
+
+
+//👇👇 this is not the correct syntex to acces the values in key value pairs. ❌❌❌
+
+// // for (const key of map) {
+//     console.log(key)
+//     }
+// 👉👉   output= [ 'IN', 'India' ]  
+//                 [ 'Fr', 'France']
+
+
 const map = new Map()
 map.set('IN', "India")
-map.set('USA', "United States of America")
 map.set('Fr', "France")
 map.set('IN', "India")
 
 // console.log(map);
 
-//Examples and syntex with Map 👇👇👇  
+// 👉👉output = Map(2) { 'IN' => 'India', 'Fr' => 'France' }
+// ✅✅note = no duplicate allow
 
 
-for (const [key, value] of map) {
-    // console.log(key, ':-', value);
-}
 
 
 //Examples with object 👇👇👇  
